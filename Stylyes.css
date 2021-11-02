@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(219, 229, 233);
+    color:black;
+    font-size: 12px;
+    font-weight: 22px;
+}
+
+
+h1 {
+    font-size:55px;
+    margin: 50px;
+    color:rgb(82, 118, 238)
+}
+.Rp{
+    width:400px;
+    border-radius:40%;
+}
+.gtap{
+width: 35%;
+border-radius:40%; 
+}
+.samp{
+    width:37%;
+    border-radius:37%;
+}
+h6{
+color:rgb(76, 85, 88);
+}
+
+h1 {
+    transform: translate(-100%, 0px); /* От куда выезжает */
+    transition: all 0.8s cubic-bezier(0.5, 0, 0, 1) 0.0s;
+  }
+  
+  h1._active {
+    transform: translate(0px,0px); /* Куда выезжает */
+  }
+
+
+
+
+
